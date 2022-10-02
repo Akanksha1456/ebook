@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="mainMaster.master.cs" Inherits="pages_mainMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+      <meta charset="utf-8">
+  <title>Virtual Library</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@800&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
+  <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+       
+        
+
+      
+        <div class=""> 
+              <nav  class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">📚e-Library</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+           
+                <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./book-list.aspx">E-Books</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Audiobooks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">E-Newspapers</a></a>
+              </li>
+                 <li class="nav-item">
+                <a class="nav-link" href="#">Magazines</a></a>
+              </li>
+     
+              <li class="nav-item">
+                <a class="nav-link" href="#">Notes</a></a>
+              </li>
+              <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Explore
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">About us</a></li>
+            <li><a class="dropdown-item" href="#">Ask a doubt</a></li>
+            <li><a class="dropdown-item" href="#">Testimonials</a></li>
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li><a class="dropdown-item" href="#">Contact Us</a></li>
+          </ul>
+        </li>
+              <li class="nav-item">
+               <button class="nav-link" type="button" class="btn btn-info">Go To App</button>
+              </li>
+                 <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Membership Details
+          </a>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user"></i> My Profile</a></li>
+              <li><a class="dropdown-item" href="#"> <i class="fa-solid fa-sack-dollar"></i> Refer and earn</a></li>
+             <li><a class="dropdown-item" href="#">⥄Reading now</a></li>
+                  <li><a class="dropdown-item" href="#">⭐Favorite</a></li>
+                  <li><a class="dropdown-item" href="#">⏲To read</a></li>
+                  <li><a class="dropdown-item" href="#">✅Have read</a></li>
+                  <li><a class="dropdown-item" href="#">🔖Bookmark</a></li>
+                  <li><a class="dropdown-item" href="#">👤Author</a></li>
+                  <li><a class="dropdown-item" href="#">📕Collections</a></li>
+                  <li><a class="dropdown-item" href="#">📁Folders</a></li>
+                  <li><a class="dropdown-item" href="#">⇩Downloads</a></li>
+                  <li><a class="dropdown-item" href="#">🗑Trash</a></li>
+                  <li><a class="dropdown-item" href="#">History</a></li>
+          </ul>
+        </li>
+
+            </ul>
+         
+          </div>
+        </div>
+      </nav>
+            </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+    </form>
+</body>
+</html>

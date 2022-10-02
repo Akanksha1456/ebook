@@ -1,0 +1,162 @@
+
+body{
+  font-family: "Montserrat";
+  padding:0;
+  margin:0;
+
+}
+h1{
+  font-family: 'Montserrat';
+  font-size: 50px;
+  color: black;
+}
+#title {
+    background: linear-gradient(rgba(0,0,0,0),#FA7070),url(https://www.vbgov.com/government/departments/libraries/digital/Digital%20Library%20Headlines/job%20resources.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    margin: 150px 70px;
+    position:relative;
+    top: 60px;
+
+}
+
+.title-text{
+  margin-top: 150px;
+}
+.title-image{
+  margin-top: 230px;
+  height:60%;
+  position:relative;
+  bottom:25%
+}
+.download-button{
+        /* top right left bottom */
+  margin:15% 3% 15% 0;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  margin-top: 10px
+}
+.nav-link{
+  margin-top: 10px
+}
+#feature{
+    width: 100%;
+    padding:70px 0;
+}
+.feature-text{
+  text-align: center;
+  padding-bottom:70px
+}
+.feature-text p{
+  margin: auto;
+  font-size: 20px;
+  color: #FA7070;
+  font-weight: bold;
+  position:relative;
+  z-index: 1;
+  display: inline-block;
+}
+.feature-text p::after{
+  content: '';
+  width:50px;
+  height: 35px;
+  background: linear-gradient(#FA7070,#fff);
+  position: absolute;
+  top:-20px;
+  left:0;
+  z-index:-1;
+  transform:rotate(10deg);
+  border-top-left-radius: 35px;
+  border-bottom-right-radius:35px;
+}
+.feature-heading{
+  font-size: 50px;
+}
+.first{
+  position: relative;
+   top:100px;
+}
+.first-feature-image{
+    height:90%;
+  position: relative;
+  top: 40px;
+  border-radius: 10%;
+}
+ .second-image{
+  border-radius: 10%;
+  position: relative;
+  top:50px;
+}
+.second{
+  position: relative;
+  top: 150px;
+}
+ .third-image{
+  height:90%;
+  border-radius: 10%;
+  position: relative;
+  top: 50px;
+}
+.third{
+  position: relative;
+  top: 100px;
+}
+
+ .fourth-image{
+  height: 140%;
+position: relative;
+border-radius: 10%;
+}
+.fourth{
+  position:relative;
+  top:150px;
+}
+
+ .fifth-image{
+  height:90%;
+  border-radius: 10%;
+  position:relative;
+  top: 140px;
+}
+.fifth{
+  position: relative;
+  top: 220px;
+}
+.bottom-container{
+    margin-top: 100px;
+  background-color: #FA7070;
+  padding: 5px 0 50px;
+  text-align: center;
+}
+.contact-me {
+  width: 40%;
+  margin: 20px auto 50px;
+}
+
+.footer-link {
+    padding: 10px;
+    position: relative;
+    top: 30px;
+}
+
+.contact-me {
+    text-align: center;
+    margin: auto auto 70px;
+    position: relative;
+    top: 70px;
+}
+.bottom-container p{
+    position: relative;
+    top: 50px;
+}
+.btn{
+    position: relative;
+    top: 10px;
+}
